@@ -1,0 +1,7 @@
+streamlit==1.14.1
+xgboost==1.7.3
+joblib==1.2.0
+shap==0.41.0
+pandas==1.5.3
+pandas-profiling==3.6.6
+
