@@ -119,7 +119,7 @@ def explain(data, model, column_transformer):
                 st.markdown(f"* <p  style=\"color:#f73664;font-size:18px;border-radius:2%;\">{i }</p>", unsafe_allow_html=True)
 
         with c21:
-            st.write('Negetive Inputs toward Churn: ')
+            st.write('Negative Inputs toward Churn: ')
             for i in neg_inp:
                 st.markdown(f"* <p  style=\"color:#369af7;font-size:18px;border-radius:2%;\">{i }</p>", unsafe_allow_html=True)
 

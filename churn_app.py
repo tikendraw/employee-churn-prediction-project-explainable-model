@@ -14,6 +14,7 @@ import toml
 import sklearn
 import warnings
 from utils.utils import get_feature_names, explain
+import webbrowser
 
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
@@ -25,6 +26,25 @@ with open(input_file_name) as toml_file:
 column_transformer = joblib.load('./model/column_transformer.joblib')
 
 
+readme = 'https://github.com/tikendraw/employee-churn-prediction-project/blob/main/README.md'
+notebook_url = 'https://github.com/tikendraw/employee-churn-prediction-project/blob/main/Churn_notebook.ipynb'
+github_repo  = 'https://github.com/tikendraw/employee-churn-prediction-project'
+
+
+
+def header():
+	col1, col2, col3 = st.columns([1,1,1])
+
+	with col1:
+		if st.button('Github'):
+			webbrowser.open_new_tab(github_repo)
+	with col2:
+		if st.button('Notebook'):
+			webbrowser.open_new_tab(notebook_url)
+	with col3:
+		if st.button('Readme'):
+			webbrowser.open_new_tab(readme)
+
 
 
 # Train the logistic regression model
@@ -33,6 +53,7 @@ model = joblib.load('./model/finalxgbclassifier.joblib')
 # Create the Streamlit app
 st.title("Churn Prediction App")
 st.write("Enter customer details to predict churn")
+header()
 
 def cap(x):
     """ Capitalizes strings in iterables"""
