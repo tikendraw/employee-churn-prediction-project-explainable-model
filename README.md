@@ -1,4 +1,4 @@
-# Churn Prediction App using XGBoost Classifier
+# Churn Prediction and Explaination App using XGBoost Classifier and SHAP
 
 ## Objective
 
