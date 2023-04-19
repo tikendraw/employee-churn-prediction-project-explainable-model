@@ -1,0 +1,3 @@
+datasource = https://data.world/bob-wakefield/call-center-data
+
+kaggle = https://www.kaggle.com/datasets/blastchar/telco-customer-churn
