@@ -169,7 +169,3 @@ if submitButton:
 
 
     explain(x, model, column_transformer)
-
-
-
-

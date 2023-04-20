@@ -1,4 +1,4 @@
-# Churn Prediction and Explaination App using XGBoost Classifier and SHAP
+# Churn Prediction App using XGBoost Classifier and SHAP (Explaination statistics)
 
 ## Objective
 
@@ -6,6 +6,13 @@ The Employee Churn Prediction model project aims to help organizations predict t
 
 This is a Streamlit app that predicts customer churn for a telecommunications company based on user inputs. The app loads a trained XGBoost classifier model and applies it to the user input data to predict whether or not the customer is likely
 to churn.
+
+
+## Key Point
+* Explainable model : is a type of machine learning model that can provide interpretable explanations for its predictions or decisions. In other words, It is a model that can explain the reasoning behind its output, allowing users to understand why a particular prediction was made.
+
+Explainable models are particularly important in situations where the decision-making process needs to be transparent, such as in the medical or legal fields. By providing interpretable explanations for its decisions, an explainable model can help users understand why a particular prediction was made, and in some cases, can provide insights into how to improve the model's performance.
+
 
 ## Metrics
 
