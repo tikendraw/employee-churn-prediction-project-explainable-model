@@ -52,4 +52,4 @@ streamlit
 
 ## Credits
 
-This app was developed by [Your Name Here] as a part of a data science project. The code is open source and free to use for personal or commercial purposes.
+This app was developed by Tikendra as a part of a data science project. The code is open source and free to use for personal or commercial purposes.
