@@ -1,4 +1,4 @@
-# Churn Prediction App using XGBoost Classifier and SHAP (Explaination statistics)
+# Employee Churn Prediction App using XGBoost Classifier and SHAP (Explaination statistics)
 
 ## Objective
 
